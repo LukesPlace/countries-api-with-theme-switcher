@@ -1,7 +1,9 @@
 <template>
-  <div class="details">
-    <h1>This is a details page</h1>
-  </div>
+  <header>
+    <div class="details-header">
+      <h1>This is a details page</h1>
+    </div>
+  </header>
 </template>
 
 <style>
@@ -11,5 +13,10 @@
     display: flex;
     align-items: center;
   }
+}
+
+details-header {
+  height: 15%;
+  width: 100%;
 }
 </style>

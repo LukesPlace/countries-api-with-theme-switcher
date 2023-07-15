@@ -1,14 +1,12 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+
 </script>
 
 <template>
-  <main>
-    <div>
-      <h2>Where in the world?</h2>
-      <img>
-      <h3>Dark Mode</h3>
-    </div>
-    <TheWelcome />
-  </main>
+  <div>
+    <h1>Home view</h1>
+  </div>
 </template>
+
+<style scoped>
+</style>
