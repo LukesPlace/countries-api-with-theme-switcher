@@ -8,5 +8,9 @@ import HeaderComp from './components/Header.vue';
   <RouterView />
 </template>
 
-<style scoped>
+<style>
+
+html {
+  background-color: hsl(207, 26%, 17%);
+}
 </style>

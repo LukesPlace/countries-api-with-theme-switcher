@@ -9,7 +9,7 @@ function toggleDarkMode() {
   <div class="bg">
     <header>
       <div class="header-left">
-        <h1>Where in the World</h1>
+        <h1>Where in the World?</h1>
       </div>
       <div class="header-right">
         <button @click="toggleDarkMode" class="dark-mode-button">
@@ -32,6 +32,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
+  color: white;
 }
 
 .header-left h1 {
@@ -41,9 +42,9 @@ header {
 }
 
 .header-right .dark-mode-button {
+  color:white;
   background-color: transparent;
   border: none;
-  color: #000000;
   cursor: pointer;
   display: flex;
   align-items: center;
